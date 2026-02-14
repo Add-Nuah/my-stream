@@ -17,7 +17,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "*", // Replace with your Netlify URL in production
+        origin: "https://ourstreame.netlify.app/", // Replace with your Netlify URL in production
         methods: ["GET", "POST"]
     }
 });
